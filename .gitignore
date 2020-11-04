@@ -1,0 +1,6 @@
+# jupyter lab
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# pychage
+*__pycache__/
