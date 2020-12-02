@@ -5,10 +5,6 @@
 ## Setting up the environment
 ```shell
 conda create --name MDO python=3.8
-conda install -c conda-forge matplotlib
-conda install -c anaconda scipy
-conda install -c conda-forge autograd 
-conda install numpy
 ```
 ### Activating / deactivating the environment :
 ```shell
@@ -25,6 +21,13 @@ conda install -c conda-forge jupyterlab
 Following is a list of all packages appearing during the labs exercices in the order they appeared. 
 With this list installed, you should not need any ```!pip install [package name]``` appearing in the notebook.
 
+#### Lab 1 
+```shell
+conda install -c conda-forge matplotlib
+conda install -c anaconda scipy
+conda install -c conda-forge autograd 
+conda install numpy
+```
 #### Lab 2
 ```shell
 conda install -c conda-forge inspyred  
@@ -39,8 +42,12 @@ conda install platypus-opt
 ```
 #### Lab 5
 Please note that for lab 5, *FELIN* is required and can be found [here](https://github.com/M2CI-ONERA/FELIN.git).
-And install this way - be careful that it will create a new git repository in your current repository (it's not necessarily what you want to do, if you are already in a git repository) : 
+And install this way in *python* - be careful that it will create a new git repository in your current repository (it's not necessarily what you want to do, if you are already in a git repository) : 
 ```python
+!git clone https://github.com/M2CI-ONERA/FELIN.git
+```
+or in a shell :
+```shell
 !git clone https://github.com/M2CI-ONERA/FELIN.git
 ```
 Other packages :
