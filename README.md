@@ -48,7 +48,7 @@ And install this way in *python* - be careful that it will create a new git repo
 ```
 or in a shell :
 ```shell
-!git clone https://github.com/M2CI-ONERA/FELIN.git
+git clone https://github.com/M2CI-ONERA/FELIN.git
 ```
 Other packages :
 ```shell
